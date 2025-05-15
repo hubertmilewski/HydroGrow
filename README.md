@@ -19,7 +19,7 @@ All sensor readings are sent to the **ESP32**, which connects to **Wi-Fi** and u
 
 The mobile app fetches the real-time data and displays it in interactive charts.
 
-<img src="readmeImages/all.jpg" width="300" height="600" alt="Device Setup" />
+<img src="readmeImages/all.jpg" width="270" height="600" alt="Device Setup" />
 
 ---
 
@@ -27,7 +27,7 @@ The mobile app fetches the real-time data and displays it in interactive charts.
 
 When you open the app, you’ll see a welcome screen to get you started.
 
-<img src="readmeImages/welcome.jpg" width="300" height="600" alt="Welcome screen of the app" />
+<img src="readmeImages/welcome.jpg" width="270" height="600" alt="Welcome screen of the app" />
 
 ---
 
@@ -38,7 +38,7 @@ The main screen shows:
 - Current weather information (from an API)
 - How many days your plant has been growing
 
-<img src="readmeImages/home.jpg" width="300" height="600" alt="Home screen with weather and grow time" />
+<img src="readmeImages/home.jpg" width="270" height="600" alt="Home screen with weather and grow time" />
 
 ---
 
@@ -55,12 +55,12 @@ Here you can track real-time parameters for your plant:
 
 All values are displayed on graphs with the option to change time ranges and view trends:
 
-<img src="readmeImages/charts.jpg" width="300" height="600" alt="Charts showing sensor data" />
+<img src="readmeImages/charts.jpg" width="270" height="600" alt="Charts showing sensor data" />
 
 You can also check which sensors are currently connected and active:
 
-<img src="readmeImages/charts-info.jpg" width="300" height="600" alt="Sensor info view" />
-<img src="readmeImages/charts-sensor.jpg" width="300" height="600" alt="Sensor selection screen" />
+<img src="readmeImages/charts-info.jpg" width="270" height="600" alt="Sensor info view" />
+<img src="readmeImages/charts-sensor.jpg" width="270" height="600" alt="Sensor selection screen" />
 
 ---
 
@@ -68,7 +68,7 @@ You can also check which sensors are currently connected and active:
 
 The third tab features an AI assistant. Ask questions and get real-time advice on how to care for your plant.
 
-<img src="readmeImages/ai.jpg" width="300" height="600" alt="AI assistant screen" />
+<img src="readmeImages/ai.jpg" width="270" height="600" alt="AI assistant screen" />
 
 ---
 
