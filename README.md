@@ -19,7 +19,7 @@ All sensor readings are sent to the **ESP32**, which connects to **Wi-Fi** and u
 
 The mobile app fetches the real-time data and displays it in interactive charts.
 
-<img src="readmeImages/all.jpg" width="450" height="300" alt="Device Setup" />
+<img src="readmeImages/all.jpg" width="300" height="600" alt="Device Setup" />
 
 ---
 
@@ -55,12 +55,12 @@ Here you can track real-time parameters for your plant:
 
 All values are displayed on graphs with the option to change time ranges and view trends:
 
-<img src="readmeImages/charts.jpg" width="500" height="300" alt="Charts showing sensor data" />
+<img src="readmeImages/charts.jpg" width="300" height="600" alt="Charts showing sensor data" />
 
 You can also check which sensors are currently connected and active:
 
-<img src="readmeImages/charts-info.jpg" width="400" height="250" alt="Sensor info view" />
-<img src="readmeImages/charts-sensor.jpg" width="400" height="250" alt="Sensor selection screen" />
+<img src="readmeImages/charts-info.jpg" width="300" height="600" alt="Sensor info view" />
+<img src="readmeImages/charts-sensor.jpg" width="300" height="600" alt="Sensor selection screen" />
 
 ---
 
