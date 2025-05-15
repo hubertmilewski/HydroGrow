@@ -1,81 +1,85 @@
 # HydroGrow
 
-HydroGrow is a mobile app built for a competition to monitor plant parameters and help you take better care of your plants.
+**HydroGrow** is a mobile app built for a competition to monitor plant parameters and help you take better care of your plants.
 
 ---
 
-## Device & Sensors
+## 🌿 Device & Sensors
 
 The hardware setup you built consists of:
 
 - **ESP32** — main controller  
-- **DFRobot Gravity analog pH sensor/meter** - analog pH meter compatible with Arduino
-- **DFRobot SEN0244** — is used to measure hardness, purity of water
+- **DFRobot Gravity analog pH sensor/meter** — analog pH meter compatible with Arduino  
+- **DFRobot SEN0244** — measures water purity and hardness (TDS)  
 - **DS18B20** — water temperature sensor  
 - **DHT11** — room temperature and humidity sensor  
-- **LDR with resistor** — light intensity sensor  
+- **LDR + resistor** — for light intensity detection  
 
-All sensors send their readings to the ESP32, which connects to WiFi and uploads data to **Firebase Realtime Database**.
+All sensor readings are sent to the **ESP32**, which connects to **Wi-Fi** and uploads data to **Firebase Realtime Database**.
 
-The mobile app then fetches this real-time data and displays it in interactive graphs.
+The mobile app fetches the real-time data and displays it in interactive charts.
 
-![Device Setup](/readmeImages/all.jpg)
-
----
-
-## Welcome Screen
-
-When you open the app, you’ll see a welcoming screen to get you started.
-
-![Welcome Screen](/readmeImages/welcome.jpg)
+![Device Setup](readmeImages/all.jpg)
 
 ---
 
-## Home Screen
+## 🚀 Welcome Screen
 
-The main screen shows current weather info fetched from an API and tracks how many days your plant has been growing.
+When you open the app, you’ll see a welcome screen to get you started.
 
-![Home Screen](/readmeImages/home.jpg)
-
----
-
-## Monitoring Tab
-
-Here you can track key parameters for your plant:
-
-- pH level  
-- TDS (Total Dissolved Solids)  
-- Water temperature  
-- Room temperature  
-- Humidity  
-- Lighting (LDR sensor)
-
-All data is visualized with charts. You can easily change the displayed time range to see trends over days.
-
-![Monitoring with Graphs](/readmeImages/charts.jpg)
-
-You can also check which sensors are connected and providing data:
-
-![Sensors List](/readmeImages/charts-info.jpg)
-![Sensors List](/readmeImages/charts-sensor.jpg)
+<img src="readmeImages/welcome.jpg" width="800" alt="Welcome screen of the app" />
 
 ---
 
-## AI Assistant
+## 🏡 Home Screen
 
-The third tab is an AI helper — ask questions about your plants and get instant advice.
+The main screen shows:
 
-![AI Assistant](/readmeImages/ai.jpg)
+- Current weather information (from an API)
+- How many days your plant has been growing
 
----
-
-## Technologies
-
-- React Native / Expo  
-- Firebase Realtime Database for sensor data  
-- Weather API integration  
-- Sensor hardware with ESP32 and analog/digital probes
-![Setup](/readmeImages/syste,.jpg)
+<img src="readmeImages/home.jpg" width="800" alt="Home screen with weather and grow time" />
 
 ---
 
+## 📊 Monitoring Tab
+
+Here you can track real-time parameters for your plant:
+
+- **pH level**
+- **TDS** (Total Dissolved Solids)
+- **Water temperature**
+- **Room temperature**
+- **Humidity**
+- **Lighting** (LDR sensor)
+
+All values are displayed on graphs with the option to change time ranges and view trends:
+
+<img src="readmeImages/charts.jpg" width="800" alt="Charts showing sensor data" />
+
+You can also check which sensors are currently connected and active:
+
+<img src="readmeImages/charts-info.jpg" width="800" alt="Sensor info view" />
+<img src="readmeImages/charts-sensor.jpg" width="800" alt="Sensor selection screen" />
+
+---
+
+## 🤖 AI Assistant
+
+The third tab features an AI assistant. Ask questions and get real-time advice on how to care for your plant.
+
+<img src="readmeImages/ai.jpg" width="800" alt="AI assistant screen" />
+
+---
+
+## 🛠 Technologies Used
+
+- **React Native / Expo** — for mobile app development  
+- **Firebase Realtime Database** — for storing sensor data  
+- **Weather API** — for live weather updates  
+- **ESP32** — microcontroller for sensor data collection  
+- **Multiple sensors** — analog and digital
+
+<img src="readmeImages/syste,.jpg" width="800" alt="System overview" />
+
+---
