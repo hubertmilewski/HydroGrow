@@ -1,7 +1,5 @@
 # HydroGrow
 
-![App Logo](path/to/logo-image.png)
-
 HydroGrow is a mobile app built for a competition to monitor plant parameters and help you take better care of your plants.
 
 ---
@@ -21,7 +19,7 @@ All sensors send their readings to the ESP32, which connects to WiFi and uploads
 
 The mobile app then fetches this real-time data and displays it in interactive graphs.
 
-![Device Setup](path/to/device-setup-photo.png)
+![Device Setup](/readmeImages/all.jpg)
 
 ---
 
