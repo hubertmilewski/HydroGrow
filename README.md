@@ -27,7 +27,7 @@ The mobile app then fetches this real-time data and displays it in interactive g
 
 When you open the app, you’ll see a welcoming screen to get you started.
 
-![Welcome Screen](path/to/welcome-screen.png)
+![Welcome Screen](/readmeImages/welcome.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ When you open the app, you’ll see a welcoming screen to get you started.
 
 The main screen shows current weather info fetched from an API and tracks how many days your plant has been growing.
 
-![Home Screen](path/to/home-screen.png)
+![Home Screen](/readmeImages/home.jpg)
 
 ---
 
@@ -52,11 +52,12 @@ Here you can track key parameters for your plant:
 
 All data is visualized with charts. You can easily change the displayed time range to see trends over days.
 
-![Monitoring with Graphs](path/to/monitoring-graphs.png)
+![Monitoring with Graphs](/readmeImages/charts.jpg)
 
 You can also check which sensors are connected and providing data:
 
-![Sensors List](path/to/sensors-list.png)
+![Sensors List](/readmeImages/charts-info.jpg)
+![Sensors List](/readmeImages/charts-sensor.jpg)
 
 ---
 
@@ -64,7 +65,7 @@ You can also check which sensors are connected and providing data:
 
 The third tab is an AI helper — ask questions about your plants and get instant advice.
 
-![AI Assistant](path/to/ai-assistant.png)
+![AI Assistant](/readmeImages/ai.jpg)
 
 ---
 
@@ -73,7 +74,8 @@ The third tab is an AI helper — ask questions about your plants and get instan
 - React Native / Expo  
 - Firebase Realtime Database for sensor data  
 - Weather API integration  
-- Sensor hardware with ESP32 and analog/digital probes  
+- Sensor hardware with ESP32 and analog/digital probes
+![Setup](/readmeImages/syste,.jpg)
 
 ---
 
