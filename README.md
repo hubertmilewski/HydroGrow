@@ -80,6 +80,6 @@ The third tab features an AI assistant. Ask questions and get real-time advice o
 - **ESP32** — microcontroller for sensor data collection  
 - **Multiple sensors** — analog and digital
 
-<img src="readmeImages/syste,.jpg" width="450" height="300" alt="System overview" />
+<img src="readmeImages/syste,.jpg" alt="System overview" />
 
 ---
